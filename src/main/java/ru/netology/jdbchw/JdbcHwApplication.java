@@ -1,13 +1,12 @@
-package ru.netology.hdbchw;
+package ru.netology.jdbchw;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HdbcHwApplication {
+public class JdbcHwApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HdbcHwApplication.class, args);
+        SpringApplication.run(JdbcHwApplication.class, args);
     }
-
 }
